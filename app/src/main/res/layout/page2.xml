@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mazid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue">
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="422dp"
+                    android:layout_height="194dp"
+                    android:gravity="center"
+                    android:text="حول التطبيق"
+                    android:textColor="#E81D1D"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:text="اهلا و سهلا بك في تطبيق (أذكار المسلم) , سهل الاستعمال و ان واجهت مشاكل يمكنك ارسال لنل على البريد الالكتروني"
+                    android:textColor="#0C0C0C"
+                    android:textSize="29dp" />
+
+                <view
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:gravity="center"
+
+                    android:text="https://www.youtube.com/channel/UCWTJ3D5jgEBVXsVcClbmJiQ?view_as=subscriber"
+                    android:textColor="#3DBD95"
+                    android:textSize="29dp" />
+
+                <view
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="118dp"
+                    android:autoLink="email"
+                    android:gravity="center"
+
+                    android:text="ghiehomar@gmail.com"
+                    android:textColor="#000000"
+                    android:textSize="27dp" />
+
+                <view
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#000000" />
+
+                <Button
+                    android:id="@+id/otherapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECD856"
+                    android:text="المزيد من تطبيقاتي" />
+
+                <Button
+                    android:id="@+id/rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECD856"
+                    android:text="قيم التطبيق" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
